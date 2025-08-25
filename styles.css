@@ -410,11 +410,12 @@ footer {
 .footer-section a {
     color: #9ca3af;
     text-decoration: none;
-    display: block;
-    margin-bottom: 0.5rem;
+    display: block !important;
+    margin-bottom: 0.75rem;
     transition: color 0.3s ease;
     font-size: 0.9rem;
     line-height: 1.4;
+    width: 100%;
 }
 
 .footer-section a:hover {
