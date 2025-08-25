@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git push:*)",
+      "Read(/C:\\Users\\Preet Gill\\Downloads/**)",
+      "Read(/C:\\Users\\Preet Gill\\Downloads/**)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
