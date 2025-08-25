@@ -378,7 +378,7 @@ footer {
 .footer-content {
     display: grid !important;
     grid-template-columns: 2fr 1fr 1fr 1fr !important;
-    gap: 1.5rem !important;
+    gap: 1rem !important;
     margin-bottom: 1rem !important;
     align-items: start !important;
     max-width: 1200px !important;
@@ -418,18 +418,19 @@ footer {
     color: #9ca3af !important;
     text-decoration: none !important;
     display: block !important;
-    margin-bottom: 0.35rem !important;
+    margin-bottom: 0.25rem !important;
     transition: color 0.3s ease !important;
-    font-size: 0.8rem !important;
-    line-height: 1.2 !important;
+    font-size: 0.75rem !important;
+    line-height: 1.1 !important;
     width: 100% !important;
 }
 
 .footer-section p {
-    margin-bottom: 0;
-    font-size: 0.875rem;
-    line-height: 1.4;
-    color: #9ca3af;
+    margin-bottom: 0 !important;
+    font-size: 0.75rem !important;
+    line-height: 1.3 !important;
+    color: #9ca3af !important;
+    max-width: 250px !important;
 }
 
 .footer-section a:hover {
