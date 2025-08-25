@@ -349,28 +349,10 @@ nav {
 
 /* CTA Section */
 .cta {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: var(--gray-900);
     color: white;
-    padding: 6rem 0;
+    padding: 5rem 0;
     text-align: center;
-    position: relative;
-    margin-bottom: 0;
-}
-
-.cta::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.1);
-    z-index: 1;
-}
-
-.cta > * {
-    position: relative;
-    z-index: 2;
 }
 
 .cta h2 {
