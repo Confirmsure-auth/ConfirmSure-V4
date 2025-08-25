@@ -367,9 +367,7 @@ nav {
     opacity: 0.9;
 }
 
-/* Footer */
-
-/* Footer */
+/* Footer v2.0 - Force cache refresh */
 footer {
     background: #1a1a2e;
     color: white;
@@ -398,6 +396,11 @@ footer {
         gap: 2rem;
         text-align: center;
     }
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
 }
 
 .footer-section h4 {
